@@ -29,13 +29,11 @@
 <div class="box">
   <h1>성주 참외 온실 현황</h1>
   <p>현황 화면을 여는 중입니다…</p>
-  <a class="btn" id="go" href="#">바로 보기</a>
+  <a class="btn" id="go" href="https://script.google.com/macros/s/AKfycbyhTx0PlBRugqa769RwhajkbYmDWJlhKVIJQZtQl_ZC9ZNmhr2bkRaY_eyN501ktdhWqA/exec">바로 보기</a>
 </div>
 <script>
-  // ★ 여기에 웹앱 주소(/exec)를 넣습니다
-  var STATUS_URL = " var STATUS_URL = "https://script.google.com/macros/s/AKfycbyhTx0PlBRugqa769RwhajkbYmDWJlhKVIJQZtQl_ZC9ZNmhr2bkRaY_eyN501ktdhWqA/exec";
-  document.getElementById("go").href = STATUS_URL;
-  location.replace(STATUS_URL);
+  // 바로 보기 버튼의 주소로 자동 이동
+  location.replace(document.getElementById("go").href);
 </script>
 </body>
 </html>
